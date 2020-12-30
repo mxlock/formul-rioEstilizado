@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#C216F3, #546ee0bd, #4a68ec);
+
+}
+
+.container {
+    width: 800px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#card {
+    background-color: rgb(3, 3, 94);
+    border-radius: 5px;
+    
+}
+
+form h1 {
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background-color: rgb(3, 3, 68);;
+}
+
+
+
+#card-input {
+    margin-bottom: 15px;
+}
+
+.input {
+    margin-bottom: 25px;
+    
+}
+
+.input input {
+    text-align: start;
+    border-style: none;
+    padding: 10px 195px 15px 20px;
+    border-radius: 4px;
+    outline: 0;
+}
+
+#card-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox { 
+    font-size: 0.8rem;
+    color: white;
+    margin-bottom: 8px;
+    padding: 10px;
+
+}
+
+.button-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.button-card button {
+    color: rgb(255, 253, 253);
+    outline: 0;
+    background: linear-gradient(rgb(72, 211, 72), rgb(72, 211, 72),rgba(8, 109, 21, 0.767));
+    border-radius: 8px;
+    padding: 8px 25px;
+    
+}
